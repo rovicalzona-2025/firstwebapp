@@ -2,8 +2,9 @@ const http = require("http");
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
-  res.write("Hello Cloud!!!");
-  res.write("Welcome to my page.");
+  res.write("Alzona, Rovic Andrea T. \n");
+  res.write("Student from BA - 4102. \n");
+   res.write("Jesus loves you :). \n");
   res.end();
 });
 
